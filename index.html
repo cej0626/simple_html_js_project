@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub Group Activity</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <button onclick="showMessage()">Click Me</button>
+    <p id="output"></p>
+
+<h2>Group Members</h2>
+<center>
+<ul>
+    <li>Jester Tan Olores</li>
+    <li>Leobert Marana</li>
+    <li>Criss Nunez</li>
+</ul>
+
+<button onclick="changeColor()">Change Background</button>
+</center>
+<script>
+function showMessage(){
+    document.getElementById("output").innerText = "Hello from JavaScript!";
+}
+function changeColor(){
+    document.body.style.backgroundColor = "lightblue";
+}
+</script>
+</body>
+</html>
